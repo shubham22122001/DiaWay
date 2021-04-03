@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+    background-image: linear-gradient(#7e6fe7,#a399ee,#9d92ed,#c3bcf4);
+}
+
+.navbar{
+    background-color: #4837b6;
+    color: white;
+    font-size: 1.2rem;
+    border-bottom: 2px solid white;
+    
+}
+
+footer{
+    background-color: white;
+
+    color: #4837b6;
+    padding-top: 26px;
+    padding-bottom: 23px;
+    text-align: center;
+}
+
+.btncont{
+    display: flex;
+    justify-content: center;
+
+}
+
+.btncont > .btn{
+    width: 33%;
+    background-color: #4837b6;
+    margin-bottom: 40px;
+    padding: 13px;
+
+}
+
+.btncont > .btn > a{
+    color: white;
+    text-decoration: none;
+}
+
+.tips{
+    background-color: white;
+    padding: 30px;
+}
+
+.tips > ul >li:nth-child(2n){
+    background-color: #4837b6;
+    color: white;
+}

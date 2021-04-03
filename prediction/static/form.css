@@ -1,0 +1,61 @@
+
+
+
+.navbar{
+  background-color: #4837b6;
+  color: white;
+  font-size: 1.2rem;
+  border-bottom: 2px solid white;
+  
+}
+
+.container-1{
+    margin-bottom: 20px;
+}
+
+.form-group{
+    margin: auto;
+    width: 33%;
+}
+
+.personal{
+    /* background-color: white; */
+    color: #4837b6;
+    padding: 30px;
+    margin: 30px;
+
+}
+
+.attributes{
+  background-color: #4837b6;
+    color: white;
+    padding: 30px;
+    margin: 30px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 2.4rem;
+
+}
+
+.btncont{
+    display: flex;
+    justify-content: center;
+
+}
+
+.btncont > .btn{
+    width: 33%;
+    color: #4837b6;
+    margin-bottom: 40px;
+    padding: 4px;
+
+}
+
+footer{
+    background-color: white;
+    color: #4837b6;
+    padding: 13px;
+    text-align: center;
+}

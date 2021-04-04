@@ -65,7 +65,7 @@ def result(request):
 
     wb.save(r"C:\Web Programming\hack\prediction\static\Book"+str(count)+r".xlsx")
 
-    return render(request, 'result.html', {'result':result,'myname':myname,'mypreg':mypreg,'mygluc':mygluc,'myage':myage,'mybp':mybp,'mybmi':mybmi,})
+    return render(request, 'result.html', {'result':result,'myname':myname,'mypreg':mypreg,'mygluc':mygluc,'myage':myage,'mybp':mybp,'mybmi':mybmi,'count':count})
 
 
 
